@@ -130,10 +130,12 @@ header .mobile {
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   height: 43.5rem;
   background: url("/resources/images/banner-landingpage.jpg");
+  background-position: bottom;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
